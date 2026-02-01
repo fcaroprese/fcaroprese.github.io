@@ -93,12 +93,11 @@ body {
 
 
 .email-text {
-
-    font-size: clamp(1.5rem, 5vw, 3.5rem); 
-    white-space: nowrap; 
-    display: block;
-    width: 100%;
-    transition: color 0.3s ease;
+    
+    font-size: clamp(1.2rem, 5vw, 4rem); 
+    word-break: break-all; 
+    display: inline-block;
+    max-width: 100%;
 }
 
 
@@ -136,3 +135,4 @@ body {
         letter-spacing: -0.02em;
     }
 }
+
