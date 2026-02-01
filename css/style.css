@@ -94,7 +94,7 @@ body {
 
 .email-text {
    
-    font-size: clamp(0.85rem, 4.2vw, 4rem); 
+    font-size: clamp(0.85rem, 4.2vw, 3.5rem); 
     display: block;
     width: 100%;
     word-break: break-all; 
@@ -138,6 +138,7 @@ body {
         letter-spacing: -0.02em;
     }
 }
+
 
 
 
