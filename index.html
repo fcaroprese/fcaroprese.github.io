@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Francesco Caroprese | Portfolio</title>
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div class="blob"></div>
+
+    <nav class="fixed w-full z-50 px-8 py-6 flex justify-between items-center backdrop-blur-lg border-b border-white/5">
+        <div class="text-2xl font-extrabold tracking-tighter">
+            <span class="gradient-text">FCAROPRESE</span>.DEV
+        </div>
+        <div class="hidden md:flex space-x-10 text-sm font-semibold uppercase tracking-widest text-slate-400">
+            <a href="#home" class="hover:text-white transition">Home</a>
+            <a href="#about" class="hover:text-white transition">Profilo</a>
+            <a href="#projects" class="hover:text-white transition">Progetti</a>
+            <a href="#collaboration" class="hover:text-white transition">Collaborazione</a>
+        </div>
+        <a href="#contact" class="bg-white text-black px-6 py-2 rounded-full font-bold text-sm hover:bg-sky-400 hover:text-white transition duration-300">
+            CONTATTAMI
+        </a>
+    </nav>
+
+    <section id="home" class="min-h-screen flex flex-col justify-center items-center text-center px-4 pt-32 pb-20">
+        <div class="reveal flex flex-col items-center">
+            
+            <div class="mb-8 relative inline-block group">
+                <div class="absolute -inset-1 bg-gradient-to-r from-sky-500 to-purple-600 rounded-full blur opacity-40 group-hover:opacity-75 transition duration-1000 animate-pulse"></div>
+                <div class="relative w-32 h-32 md:w-48 md:h-48 rounded-full overflow-hidden border-2 border-white/10 shadow-2xl">
+                    <img src="assets/profile.jpeg" alt="Francesco Caroprese" class="w-full h-full object-cover">
+                </div>
+            </div>
+
+            <span class="px-4 py-2 rounded-full border border-white/10 text-xs font-bold tracking-widest bg-white/5 mb-6 inline-block uppercase">
+                Disponibile per nuove sfide
+            </span>
+
+            <h1 class="text-6xl md:text-9xl font-black tracking-tighter mb-6 leading-none uppercase">
+                Building<br><span class="gradient-text">The Future.</span>
+            </h1>
+
+            <p class="text-slate-400 text-lg md:text-xl max-w-2xl mx-auto mb-10 leading-relaxed">
+                Ciao, sono Francesco Caroprese. Laureando in Informatica di 22 anni specializzato nello sviluppo di soluzioni software moderne ed eleganti.
+            </p>
+            
+            <div class="flex flex-col md:flex-row gap-6 justify-center items-center">
+                <a href="#projects" class="bg-sky-500 p-[2px] rounded-full group inline-block">
+                    <div class="bg-[#070a13] group-hover:bg-transparent px-8 py-4 rounded-full transition duration-300">
+                        <span class="font-bold">Esplora Progetti</span>
+                    </div>
+                </a>
+                
+                <a href="assets/Curriculum.pdf" download class="btn-cv relative inline-block px-8 py-4 rounded-full font-bold text-white overflow-hidden transition-all duration-300">
+                    <span class="relative z-10 flex items-center gap-2">
+                        <i class="fas fa-file-download"></i> Scarica CV
+                    </span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="py-32 px-6 max-w-6xl mx-auto">
+        <div class="grid md:grid-cols-2 gap-20 items-center">
+            <div class="reveal">
+                <h2 class="text-4xl font-bold mb-8 italic">"Il codice è poesia in esecuzione."</h2>
+                <p class="text-slate-400 text-lg mb-6 leading-relaxed">
+                    A 22 anni ho trasformato la mia passione per l'informatica in una missione. Come laureando, mi concentro sulla creazione di sistemi che non siano solo funzionali, ma che offrano un'esperienza utente straordinaria.
+                </p>
+                <div class="flex gap-6">
+                    <div>
+                        <h4 class="text-3xl font-bold text-white">22</h4>
+                        <p class="text-xs text-slate-500 uppercase tracking-widest">Età</p>
+                    </div>
+                    <div class="w-px h-12 bg-white/10"></div>
+                    <div>
+                        <h4 class="text-3xl font-bold text-white">IT</h4>
+                        <p class="text-xs text-slate-500 uppercase tracking-widest">Focus</p>
+                    </div>
+                    <div class="w-px h-12 bg-white/10"></div>
+                    <div>
+                        <h4 class="text-3xl font-bold text-white">99%</h4>
+                        <p class="text-xs text-slate-500 uppercase tracking-widest">Laurea</p>
+                    </div>
+                </div>
+            </div>
+            <div class="glass p-10 rounded-[40px] reveal">
+                <h3 class="text-2xl font-bold mb-6 gradient-text uppercase tracking-tighter">Skills & Tech</h3>
+                <div class="grid grid-cols-2 gap-4">
+                    <div class="p-4 bg-white/5 rounded-2xl border border-white/5 hover:border-sky-500/50 transition">
+                        <i class="fab fa-python text-sky-400 mb-2"></i>
+                        <p class="font-bold">Backend</p>
+                    </div>
+                    <div class="p-4 bg-white/5 rounded-2xl border border-white/5 hover:border-purple-500/50 transition">
+                        <i class="fab fa-react text-purple-400 mb-2"></i>
+                        <p class="font-bold">Frontend</p>
+                    </div>
+                    <div class="p-4 bg-white/5 rounded-2xl border border-white/5 hover:border-emerald-500/50 transition">
+                        <i class="fas fa-database text-emerald-400 mb-2"></i>
+                        <p class="font-bold">Databases</p>
+                    </div>
+                    <div class="p-4 bg-white/5 rounded-2xl border border-white/5 hover:border-pink-500/50 transition">
+                        <i class="fas fa-mobile-alt text-pink-400 mb-2"></i>
+                        <p class="font-bold">Mobile App</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="py-32 px-6 bg-white/[0.01]">
+        <div class="max-w-6xl mx-auto">
+            <h2 class="text-5xl font-black mb-16 reveal text-center md:text-left">PROGETTI <span class="gradient-text">TOP</span></h2>
+            
+            <div class="grid md:grid-cols-2 gap-10">
+                <div class="glass p-8 rounded-[40px] group reveal relative overflow-hidden">
+                    <div class="absolute top-0 right-0 p-8">
+                        <i class="fas fa-paw text-6xl text-white/5 group-hover:text-sky-500/20 transition duration-500"></i>
+                    </div>
+                    
+                    <span class="text-sky-400 font-bold text-sm tracking-widest uppercase">App Mobile Full-Stack</span>
+                    <h3 class="text-3xl font-bold mt-4 mb-4 uppercase">Love My Pet</h3>
+                    <p class="text-slate-400 mb-8 leading-relaxed">
+                        Un ecosistema digitale dedicato agli animali. Una piattaforma completa per la gestione della salute, degli appuntamenti e del benessere dei tuoi pet, sviluppata con architettura mobile scalabile.
+                    </p>
+
+                    <div class="flex flex-wrap gap-2">
+                        <span class="bg-sky-500/10 text-sky-400 px-3 py-1 rounded-full text-[10px] font-bold border border-sky-500/20 uppercase tracking-wider">Expo</span>
+                        <span class="bg-orange-500/10 text-orange-400 px-3 py-1 rounded-full text-[10px] font-bold border border-orange-500/20 uppercase tracking-wider">Firebase Auth</span>
+                        <span class="bg-emerald-500/10 text-emerald-400 px-3 py-1 rounded-full text-[10px] font-bold border border-emerald-500/20 uppercase tracking-wider">Supabase PostgreSQL</span>
+                        <span class="bg-indigo-500/10 text-indigo-400 px-3 py-1 rounded-full text-[10px] font-bold border border-indigo-500/20 uppercase tracking-wider">Cloudinary</span>
+                        <span class="bg-green-500/10 text-green-400 px-3 py-1 rounded-full text-[10px] font-bold border border-green-500/20 uppercase tracking-wider">Android Studio</span>
+                        <span class="bg-rose-500/10 text-rose-400 px-3 py-1 rounded-full text-[10px] font-bold border border-rose-500/20 uppercase tracking-wider">REST API</span>
+                    </div>
+                </div>
+
+                <div class="glass p-8 rounded-[40px] group reveal relative overflow-hidden">
+                    <div class="absolute top-0 right-0 p-8">
+                        <i class="fas fa-brain text-6xl text-white/5 group-hover:text-purple-500/20 transition duration-500"></i>
+                    </div>
+                    
+                    <span class="text-purple-400 font-bold text-sm tracking-widest uppercase">Intelligenza Artificiale</span>
+                    <h3 class="text-3xl font-bold mt-4 mb-4 uppercase">AI Vision Hub</h3>
+                    <p class="text-slate-400 mb-8 leading-relaxed">
+                        Ricerca e sviluppo di un'interfaccia neurale per l'analisi di flussi video in tempo reale. Implementazione di modelli avanzati per l'automazione del riconoscimento oggetti.
+                    </p>
+
+                    <div class="flex flex-wrap gap-2">
+                        <span class="bg-yellow-500/10 text-yellow-400 px-3 py-1 rounded-full text-[10px] font-bold border border-yellow-500/20 uppercase tracking-wider">Python</span>
+                        <span class="bg-rose-500/10 text-rose-400 px-3 py-1 rounded-full text-[10px] font-bold border border-rose-500/20 uppercase tracking-wider">REST API</span>
+                        <span class="bg-blue-500/10 text-blue-400 px-3 py-1 rounded-full text-[10px] font-bold border border-blue-500/20 uppercase tracking-wider">OpenCV</span>
+                        <span class="bg-orange-600/10 text-orange-500 px-3 py-1 rounded-full text-[10px] font-bold border border-orange-600/20 uppercase tracking-wider">PyTorch</span>
+                        <span class="bg-cyan-500/10 text-cyan-400 px-3 py-1 rounded-full text-[10px] font-bold border border-cyan-500/20 uppercase tracking-wider">Docker</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="collaboration" class="py-32 px-6 max-w-6xl mx-auto">
+        <div class="text-center mb-20 reveal">
+            <h2 class="text-5xl font-black mb-6 uppercase tracking-tighter">Processo di <span class="gradient-text">Collaborazione</span></h2>
+            <p class="text-slate-400 max-w-2xl mx-auto text-center">Dall'idea iniziale alla realtà digitale: trasparenza e qualità sono i miei pilastri.</p>
+        </div>
+
+        <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+            <div class="glass p-8 rounded-3xl relative overflow-hidden reveal">
+                <span class="step-number">01</span>
+                <i class="fas fa-comments text-sky-400 text-3xl mb-6"></i>
+                <h4 class="text-xl font-bold mb-4">Comunicazione</h4>
+                <p class="text-slate-400 text-sm leading-relaxed text-left">Incontro iniziale di 15-30 minuti per allineare visioni e obiettivi fin dal primo istante.</p>
+            </div>
+            <div class="glass p-8 rounded-3xl relative overflow-hidden reveal">
+                <span class="step-number">02</span>
+                <i class="fas fa-layer-group text-purple-400 text-3xl mb-6"></i>
+                <h4 class="text-xl font-bold mb-4">Sviluppo</h4>
+                <p class="text-slate-400 text-sm leading-relaxed text-left">Codice pulito e performance ottimali seguendo le migliori pratiche del settore IT.</p>
+            </div>
+            <div class="glass p-8 rounded-3xl relative overflow-hidden reveal">
+                <span class="step-number">03</span>
+                <i class="fas fa-sync text-emerald-400 text-3xl mb-6"></i>
+                <h4 class="text-xl font-bold mb-4">Revisione</h4>
+                <p class="text-slate-400 text-sm leading-relaxed text-left">Aggiornamenti trasparenti e costanti sullo stato del progetto per garantire la tua soddisfazione.</p>
+            </div>
+            <div class="glass p-8 rounded-3xl relative overflow-hidden reveal">
+                <span class="step-number">04</span>
+                <i class="fas fa-heart text-pink-400 text-3xl mb-6"></i>
+                <h4 class="text-xl font-bold mb-4">Consegna</h4>
+                <p class="text-slate-400 text-sm leading-relaxed text-left">Oltre la consegna: supporto costante per coltivare una partnership duratura.</p>
+            </div>
+        </div>
+    </section>
+
+   <section id="contact" class="py-32 px-6 text-center">
+        <div class="glass max-w-5xl mx-auto p-12 md:p-16 rounded-[50px] reveal border-sky-500/20 shadow-2xl shadow-sky-500/10 overflow-hidden">
+            <h2 class="text-5xl font-black mb-6 uppercase tracking-tighter">Costruiamo il <span class="gradient-text">Domani</span>.</h2>
+            <p class="text-slate-400 mb-12 text-lg">Hai un progetto ambizioso? Parliamone.</p>
+            
+            <a href="mailto:francescocaroprese04@gmail.com" class="email-text block font-bold hover:text-sky-400 transition-colors tracking-tighter">
+                francescocaroprese04@gmail.com
+            </a>
+
+            <div class="flex justify-center space-x-10 mt-16">
+                <a href="https://www.linkedin.com/in/francesco-caroprese-02b926359/" class="text-3xl hover:text-sky-400 transition transform hover:scale-125"><i class="fab fa-linkedin"></i></a>
+                <a href="https://www.instagram.com/francescocaroprese_/" class="text-3xl hover:text-sky-400 transition transform hover:scale-125"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="py-12 border-t border-white/5 text-center text-slate-500 text-xs tracking-widest uppercase">
+        © 2026 FRANCESCO CAROPRESE — ALL RIGHTS RESERVED
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
